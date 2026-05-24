@@ -1,31 +1,9 @@
 # Kemal's Hermes Profile
 
-## About
-- Name: Kemal (username: kemaltombul)
-- Timezone: Europe/Istanbul (UTC+3)
-- Language: Prefers B1-level English (simple words, short sentences)
-- Style: Likes max ~200 words, dislikes long messages
+(last synced from live Hermes)
 
-## Hermes Config
-- Model: deepseek-v4-flash on OpenRouter
-- Reasoning effort: low
-- Personality: concise
-- Cost display: enabled
-
-## Disabled Toolsets
-(Saves prompt-size token overhead)
-- browser
-- tts
-- image_gen
-- video_gen
-- video
-
-## Primary Platform
-- Uses Hermes via Telegram mostly
-
-## Cron Jobs
-- Daily news briefing at 6pm Turkey time
-
----
-
-*Last updated: 2026-05-24*
+User (Kemal) prefers cost-optimized Hermes setup: deepseek-v4-flash on OpenRouter, low reasoning effort, concise personality, cost display enabled. Unused toolsets (browser, tts, image_gen, video_gen, video) are disabled from CLI to save on prompt-size token overhead. Uses Hermes via Telegram primarily.
+§
+User prefers B1-level English (simple words, short sentences). Likes max ~200 words. Dislikes long messages. Timezone is Europe/Istanbul (UTC+3). Has a daily news cron job at 6pm Turkey time.
+§
+User (Kemal) expects me to remember context from previous sessions and check session history before replying. He will call me out if I forget something.
