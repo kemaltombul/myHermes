@@ -1,0 +1,27 @@
+# Hermes Config — Example (no secrets)
+# Copy to your ~/.hermes/config.yaml and add your own API keys
+
+model:
+  default: deepseek-v4-flash
+  provider: openrouter
+  base_url: https://openrouter.ai/api/v1
+  api_mode: chat_completions
+
+display:
+  personality: concise
+  show_cost: true
+
+agent:
+  reasoning_effort: low
+  tool_use_enforcement: auto
+
+terminal:
+  backend: local
+  persistent_shell: true
+
+telegram:
+  reactions: false
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
