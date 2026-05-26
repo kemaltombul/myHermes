@@ -24,7 +24,7 @@
 - Uses Hermes via Telegram mostly
 
 ## Cron Jobs
-- Daily news briefing at 6pm Turkey time
+- Daily News Briefing — world + tech news, concise B1 English, delivered here at 6pm TR time (15:00 UTC)
 
 ## Memory Notes
 - Hermes profile repo: https://github.com/kemaltombul/myHermes
@@ -35,4 +35,4 @@
 
 ---
 
-*Last updated: 2026-05-27*
+*Last updated: 2026-05-27 (cron setup)*
