@@ -7,21 +7,41 @@ model:
   base_url: https://openrouter.ai/api/v1
   api_mode: chat_completions
 
-display:
-  personality: concise
-  show_cost: true
-
 agent:
   reasoning_effort: low
   tool_use_enforcement: auto
+  max_turns: 90
+  personality: concise
+
+display:
+  personality: concise
+  show_cost: true
+  language: en
+  final_response_markdown: strip
+  skin: default
 
 terminal:
   backend: local
   persistent_shell: true
 
-telegram:
-  reactions: false
-
 memory:
   memory_enabled: true
   user_profile_enabled: true
+
+telegram:
+  reactions: false
+
+approvals:
+  mode: manual
+
+compression:
+  enabled: true
+  threshold: 0.5
+  target_ratio: 0.2
+
+delegation:
+  max_concurrent_children: 3
+  max_iterations: 50
+
+curator:
+  enabled: true

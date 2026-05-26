@@ -1,9 +1,38 @@
 # Kemal's Hermes Profile
 
-(last synced from live Hermes)
+## About
+- Name: Kemal (username: kemaltombul)
+- Timezone: Europe/Istanbul (UTC+3)
+- Language: Prefers B1-level English (simple words, short sentences)
+- Style: Likes concise responses, max ~200 words, dislikes long messages
 
-User (Kemal) prefers cost-optimized Hermes setup: deepseek-v4-flash on OpenRouter, low reasoning effort, concise personality, cost display enabled. Unused toolsets (browser, tts, image_gen, video_gen, video) are disabled from CLI to save on prompt-size token overhead. Uses Hermes via Telegram primarily.
-§
-User prefers B1-level English (simple words, short sentences). Likes max ~200 words. Dislikes long messages. Timezone is Europe/Istanbul (UTC+3). Has a daily news cron job at 6pm Turkey time.
-§
-User (Kemal) expects me to remember context from previous sessions and check session history before replying. He will call me out if I forget something.
+## Hermes Config
+- Model: deepseek-v4-flash on OpenRouter
+- Reasoning effort: low
+- Personality: concise
+- Cost display: enabled
+
+## Disabled Toolsets
+(Saves prompt-size token overhead)
+- browser
+- tts
+- image_gen
+- video_gen
+- video
+
+## Primary Platform
+- Uses Hermes via Telegram mostly
+
+## Cron Jobs
+- Daily news briefing at 6pm Turkey time
+
+## Memory Notes
+- Hermes profile repo: https://github.com/kemaltombul/myHermes
+- On a new Hermes instance, load profile from this repo
+- Has a Flutter flashcards project (github.com/kemaltombul/flashcards)
+- web_search/web_extract tools can fail (Firecrawl issues). Browser tool works as fallback
+- Cron jobs that return [SILENT] due to tool failures don't deliver anything
+
+---
+
+*Last updated: 2026-05-27*

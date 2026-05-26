@@ -1,17 +1,33 @@
-# myHermes
+# myHermes — Hermes Agent Profile
 
-Hermes Agent profile and configuration sharing across sessions and instances.
+Share your Hermes Agent profile across multiple instances and machines.
 
 ## Structure
 
-- `USER.md` — Your personal Hermes profile (preferences, config, timezone)
-- More files can be added (SOUL.md for persona, configs, notes)
+- `USER.md` — Personal profile (preferences, timezone, model, tools, cron)
+- `SOUL.md` — Agent persona/behavior definition
+- `config-example.yaml` — Sanitized Hermes config (no secrets, just portable settings)
+- `EXAMPLE.md` — Template for adding your own profile
 
-## How to use
+## How to use on a new instance
 
-On a new Hermes instance, tell the agent to load your profile from this repo.
-It can read the USER.md and apply the settings automatically.
+1. Clone this repo
+2. Tell the agent: **"load my profile from kemaltombul/myHermes"**
+3. The agent reads `USER.md` and applies settings
 
-## Adding your own
+Or manually:
+```bash
+git clone https://github.com/kemaltombul/myHermes.git
+```
+Then ask the agent to read and apply the settings.
 
-Create a file like `yourname.md` with your preferences so other sessions can pick them up.
+## Updating
+
+Run this repo's sync to push your latest profile:
+- Update `USER.md` with current preferences
+- Update `config-example.yaml` with current Hermes settings (strip secrets)
+- Push to GitHub
+
+## Adding others
+
+Create a new file like `username.md` for multi-user setup.
