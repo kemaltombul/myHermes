@@ -27,6 +27,10 @@
 - Daily News Briefing — world + tech news, concise B1 English, delivered here at 6pm TR time (15:00 UTC)
 - Weekly GitHub Profile Sync — pushes USER.md to GitHub every Saturday at noon TR time
 
+## English Learning
+- Agent corrects Kemal's English mistakes automatically during conversation
+- Explains corrections simply (no waiting, no asking)
+
 ## Memory Notes
 - Hermes profile repo: https://github.com/kemaltombul/myHermes
 - On a new Hermes instance, load profile from this repo
