@@ -46,4 +46,4 @@
 
 ---
 
-*Last updated: 2026-08-01 (cron sync)*
+*Last updated: 2026-08-08 (cron sync)*
